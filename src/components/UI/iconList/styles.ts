@@ -1,19 +1,20 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  min-height: 50vh;
-  border: 1px solid black;
+export const Container = styled.li`
+  background-color: #000000;
+  padding: 5px;
+  border-radius: 5px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 30px;
 
-  ul {
+  img {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    width: 40px;
+    height: 40px;
   }
 `;

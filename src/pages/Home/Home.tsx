@@ -1,15 +1,15 @@
 import React from "react";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 const Home: React.FC = () => {
   return (
     <div>
       <Header />
-      {/* header */}
       {/* token */}
       {/* nft */}
       {/* tecnology */}
-      {/* footer */}
+      <Footer />
     </div>
   );
 };
